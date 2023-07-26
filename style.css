@@ -1,0 +1,87 @@
+.titulo{
+    font-family: 'DM Serif Display', serif;
+    font-size: x-large;
+}
+
+.justify-p{
+    text-align: justify;
+}
+ 
+.margin{
+    margin-left: 5;
+    margin-right: 5;
+    padding: 0%;
+}
+
+.gradient-background {
+    background: linear-gradient(300deg, #798591, #919ba5, #616c77);
+    background-size: 180% 180%;
+    animation: gradient-animation 18s ease infinite;
+  }
+  
+  @keyframes gradient-animation {
+    0% {
+      background-position: 0% 50%;
+    }
+    50% {
+      background-position: 80% 50%;
+    }
+    100% {
+      background-position: 0% 50%;
+    }
+  }
+
+ .carrusel {
+    text-align: center;
+  }
+  
+  .btn {
+    background-color: #212529;
+    color: #ffffff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+  }
+
+.servicios{
+  display: flex;
+}
+
+.image-container {
+  position: relative;
+  display: inline-block;
+}
+
+.circle {
+  position: absolute;
+  top: 10px; /* Ajusta la posición verticalmente */
+  left: 10px; /* Ajusta la posición horizontalmente */
+  background-color: #ffc107; /* Color amarillo */
+  border-radius: 50%; /* Hace que el div sea un círculo */
+  width: 80px; /* Tamaño del círculo */
+  height: 80px; /* Tamaño del círculo */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column; /* Alinea el texto verticalmente */
+  line-height: 1;
+}
+
+.small-text, .large-text {
+  color: #000000; /* Color del texto en negro */
+}
+
+.small-text {
+  font-size: 14px;
+  margin-bottom: 1px;
+}
+
+.large-text {
+  margin-top: 1px;
+  font-size: 30px;
+  font-weight: bold;
+}
+
