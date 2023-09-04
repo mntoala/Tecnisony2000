@@ -49,6 +49,16 @@
 .servicios{
   display: flex;
 }
+.serviceTitle{
+  display: inline-flex;
+  align-items: center ;
+}
+.servT{
+  flex-direction: row;
+}
+.flecha{
+  flex-direction: row-reverse;
+}
 
 .image-container {
   position: relative;
