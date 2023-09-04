@@ -1,0 +1,16 @@
+<div class="container">
+    <div class="row">
+      <div class="col-lg-4 col-sm-4 col-xsm-6">
+        <img src="./images/marcas/panasonic.png" alt="panasonic" height="20">
+      </div>
+      <div class="col-lg-3 col-sm-3 col-xsm-6">
+        <img src="./images/marcas/lg.png" alt="mashable" height="30">
+      </div>
+      <div class="col-lg-3 col-sm-3 col-xsm-6">
+        <img src="./images/marcas/RCA.png" alt="bizinsider" height="20">
+      </div>
+      <div class="col-lg-2 col-sm-2 col-xsm-6">
+        <img src="./images/marcas/tcl.png" alt="tnw" height="25">
+      </div>
+    </div>
+  </div>
