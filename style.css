@@ -50,14 +50,17 @@
   display: flex;
 }
 .serviceTitle{
-  display: inline-flex;
+  display: flex;
   align-items: center ;
 }
 .servT{
-  flex-direction: row;
+  margin-right: auto; /* mueve todo a la derecha */
+  flex-grow: 1; /* expande el elemento para ocupar toso el espacio */
+  
 }
 .flecha{
-  flex-direction: row-reverse;
+  margin-right: auto; /* mueve todo a la derecha */
+
 }
 
 .image-container {
